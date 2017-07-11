@@ -48,7 +48,7 @@ _____________________________________________
 
 ## <a id="Usage"></a>Usage
 
-* HUDTypeNull-虚线
+* BorderTypeDashed-虚线
 
 ```objc
 CJBorderView *view1 = [[CJBorderView alloc] initWithFrame:CGRectMake(50, 50, 100, 100)];
@@ -62,7 +62,7 @@ view1.borderColor  = [UIColor blackColor];
 [self.view addSubview:view1];
 ```
 
-* HUDTypeSmile-实线（一旦设置类型为实线，所有虚线属性设置均无效）
+* BorderTypeSolid-实线（一旦设置类型为实线，所有虚线属性设置均无效）
 
 ```objc
 CJBorderView *view2 = [[CJBorderView alloc] initWithFrame:CGRectMake(200, 50, 50, 100)];
