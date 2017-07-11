@@ -75,5 +75,5 @@ view2.spacePattern = 10;
 view2.borderColor  = [UIColor blackColor];
 [self.view addSubview:view2];
 ```
-![smile](https://raw.githubusercontent.com/CoderChenJun/CJHUD/master/master/Git_smile.png "HUDTypeSmile")<br>
+![smile](https://raw.githubusercontent.com/CoderChenJun/CJBorderView/master/master/Simulator.png "result")<br>
  
