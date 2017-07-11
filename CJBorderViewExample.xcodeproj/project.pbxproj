@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA4522621F14BE1E0004790B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4522611F14BE1E0004790B /* main.m */; };
-		FA4522651F14BE1E0004790B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4522641F14BE1E0004790B /* AppDelegate.m */; };
-		FA4522681F14BE1E0004790B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4522671F14BE1E0004790B /* ViewController.m */; };
-		FA45226B1F14BE1E0004790B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4522691F14BE1E0004790B /* Main.storyboard */; };
-		FA45226D1F14BE1E0004790B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA45226C1F14BE1E0004790B /* Assets.xcassets */; };
-		FA4522701F14BE1E0004790B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA45226E1F14BE1E0004790B /* LaunchScreen.storyboard */; };
+		FA4522871F14BE470004790B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4522791F14BE470004790B /* AppDelegate.m */; };
+		FA4522891F14BE470004790B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA45227E1F14BE470004790B /* ViewController.m */; };
+		FA45228A1F14BE470004790B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4522801F14BE470004790B /* Assets.xcassets */; };
+		FA45228B1F14BE470004790B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4522811F14BE470004790B /* LaunchScreen.storyboard */; };
+		FA45228C1F14BE470004790B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4522831F14BE470004790B /* Main.storyboard */; };
+		FA45228D1F14BE470004790B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA4522851F14BE470004790B /* Info.plist */; };
+		FA45228E1F14BE470004790B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4522861F14BE470004790B /* main.m */; };
+		FA4522921F14BEA60004790B /* CJBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4522911F14BEA60004790B /* CJBorderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA45225D1F14BE1E0004790B /* CJBorderViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJBorderViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA4522611F14BE1E0004790B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FA4522631F14BE1E0004790B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FA4522641F14BE1E0004790B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FA4522661F14BE1E0004790B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FA4522671F14BE1E0004790B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FA45226A1F14BE1E0004790B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FA45226C1F14BE1E0004790B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FA45226F1F14BE1E0004790B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FA4522711F14BE1E0004790B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4522781F14BE470004790B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA4522791F14BE470004790B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA45227D1F14BE470004790B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA45227E1F14BE470004790B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA4522801F14BE470004790B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA4522821F14BE470004790B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA4522841F14BE470004790B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA4522851F14BE470004790B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4522861F14BE470004790B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA4522901F14BEA60004790B /* CJBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJBorderView.h; sourceTree = "<group>"; };
+		FA4522911F14BEA60004790B /* CJBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJBorderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 		FA4522541F14BE1E0004790B = {
 			isa = PBXGroup;
 			children = (
+				FA45228F1F14BE950004790B /* CJBorderView */,
 				FA45225F1F14BE1E0004790B /* CJBorderViewExample */,
 				FA45225E1F14BE1E0004790B /* Products */,
 			);
@@ -58,25 +63,42 @@
 		FA45225F1F14BE1E0004790B /* CJBorderViewExample */ = {
 			isa = PBXGroup;
 			children = (
-				FA4522631F14BE1E0004790B /* AppDelegate.h */,
-				FA4522641F14BE1E0004790B /* AppDelegate.m */,
-				FA4522661F14BE1E0004790B /* ViewController.h */,
-				FA4522671F14BE1E0004790B /* ViewController.m */,
-				FA4522691F14BE1E0004790B /* Main.storyboard */,
-				FA45226C1F14BE1E0004790B /* Assets.xcassets */,
-				FA45226E1F14BE1E0004790B /* LaunchScreen.storyboard */,
-				FA4522711F14BE1E0004790B /* Info.plist */,
-				FA4522601F14BE1E0004790B /* Supporting Files */,
+				FA4522771F14BE470004790B /* Classes */,
+				FA45227F1F14BE470004790B /* Supporting Files */,
 			);
 			path = CJBorderViewExample;
 			sourceTree = "<group>";
 		};
-		FA4522601F14BE1E0004790B /* Supporting Files */ = {
+		FA4522771F14BE470004790B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FA4522611F14BE1E0004790B /* main.m */,
+				FA4522781F14BE470004790B /* AppDelegate.h */,
+				FA4522791F14BE470004790B /* AppDelegate.m */,
+				FA45227D1F14BE470004790B /* ViewController.h */,
+				FA45227E1F14BE470004790B /* ViewController.m */,
 			);
-			name = "Supporting Files";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FA45227F1F14BE470004790B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA4522801F14BE470004790B /* Assets.xcassets */,
+				FA4522811F14BE470004790B /* LaunchScreen.storyboard */,
+				FA4522831F14BE470004790B /* Main.storyboard */,
+				FA4522851F14BE470004790B /* Info.plist */,
+				FA4522861F14BE470004790B /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA45228F1F14BE950004790B /* CJBorderView */ = {
+			isa = PBXGroup;
+			children = (
+				FA4522901F14BEA60004790B /* CJBorderView.h */,
+				FA4522911F14BEA60004790B /* CJBorderView.m */,
+			);
+			path = CJBorderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +160,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA4522701F14BE1E0004790B /* LaunchScreen.storyboard in Resources */,
-				FA45226D1F14BE1E0004790B /* Assets.xcassets in Resources */,
-				FA45226B1F14BE1E0004790B /* Main.storyboard in Resources */,
+				FA45228D1F14BE470004790B /* Info.plist in Resources */,
+				FA45228C1F14BE470004790B /* Main.storyboard in Resources */,
+				FA45228A1F14BE470004790B /* Assets.xcassets in Resources */,
+				FA45228B1F14BE470004790B /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,29 +174,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA4522681F14BE1E0004790B /* ViewController.m in Sources */,
-				FA4522651F14BE1E0004790B /* AppDelegate.m in Sources */,
-				FA4522621F14BE1E0004790B /* main.m in Sources */,
+				FA4522891F14BE470004790B /* ViewController.m in Sources */,
+				FA4522871F14BE470004790B /* AppDelegate.m in Sources */,
+				FA45228E1F14BE470004790B /* main.m in Sources */,
+				FA4522921F14BEA60004790B /* CJBorderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FA4522691F14BE1E0004790B /* Main.storyboard */ = {
+		FA4522811F14BE470004790B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FA45226A1F14BE1E0004790B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FA45226E1F14BE1E0004790B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA45226F1F14BE1E0004790B /* Base */,
+				FA4522821F14BE470004790B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FA4522831F14BE470004790B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA4522841F14BE470004790B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -274,7 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LQB76773LR;
-				INFOPLIST_FILE = CJBorderViewExample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CJBorderViewExample/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.ChenJun.CJBorderViewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,7 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LQB76773LR;
-				INFOPLIST_FILE = CJBorderViewExample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CJBorderViewExample/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.ChenJun.CJBorderViewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +336,7 @@
 				FA4522761F14BE1E0004790B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
