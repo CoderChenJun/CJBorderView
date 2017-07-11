@@ -1,6 +1,6 @@
 ![smile](https://raw.githubusercontent.com/CoderChenJun/CJBorderView/master/CJLOGO.png "Logo")<br>
 # CJBorderView
-* An easy way to use RefreshControl
+* An easy way to init a view with dotted line border
 
 ****
 ### Author:CoderChenJun
