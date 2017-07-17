@@ -78,13 +78,18 @@
     //drawing a border around a view
     CGPathMoveToPoint(path, NULL, 0, frame.size.height - cornerRadius);
     CGPathAddLineToPoint(path, NULL, 0, cornerRadius);
+    
     CGPathAddArc(path, NULL, cornerRadius, cornerRadius, cornerRadius, M_PI, -M_PI_2, NO);
     CGPathAddLineToPoint(path, NULL, frame.size.width - cornerRadius, 0);
+    
     CGPathAddArc(path, NULL, frame.size.width - cornerRadius, cornerRadius, cornerRadius, -M_PI_2, 0, NO);
     CGPathAddLineToPoint(path, NULL, frame.size.width, frame.size.height - cornerRadius);
+    
     CGPathAddArc(path, NULL, frame.size.width - cornerRadius, frame.size.height - cornerRadius, cornerRadius, 0, M_PI_2, NO);
     CGPathAddLineToPoint(path, NULL, cornerRadius, frame.size.height);
+    
     CGPathAddArc(path, NULL, cornerRadius, frame.size.height - cornerRadius, cornerRadius, M_PI_2, M_PI, NO);
+    
     
     //path is set as the _shapeLayer object's path
     _shapeLayer.path = path;
